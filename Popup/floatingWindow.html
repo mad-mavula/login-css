@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Floating Window</title>
+	<link rel="stylesheet" type="text/css" href="floatcss.css">
+	<script type="text/javascript" src="floatjs.js"></script>
+</head>
+<body>
+	<div class="float-bg">
+		<div class="float-content">
+			<div class="exit">+</div>
+			<img class="img" src="icon.png">
+			<form method="POST" action="dbf/login.dbf.php" name="login-form">
+				<table border="0">
+					<tr>
+						<td>
+							<input class="textboxes" type="text" name="ud" placeholder="Enter Your Username or Email" required="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input class="textboxes" type="password" name="password" placeholder="Enter Your Password" required="">
+						</td>
+					</tr></table>
+                                      <table border="0">
+					<tr>
+						<td align="right" width=200>
+						Not registered yet?<br><a href="signup.php">Sign Up</a></td>
+                                                 <td >
+	                                         <button class="btnlog" type="submit" name="loginbtn">Login</button>
+                                                  
+						</td>
+					</tr>
+                                        
+					
+				</table>
+			</form>
+			
+		</div>
+	</div>
+</body>
+</html>
